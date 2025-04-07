@@ -70,7 +70,7 @@ async def account_login(bot: Client, m: Message):
 <b>🚀 You are not subscribed to any plan yet!</b>
 
 <blockquote><i>💵 Monthly Plan: ₹ 400</blockquote></i>
-<b>If you want to buy membership of the bot, feel free to contact the Bot</b> [BHUMIHAR](https://t.me/Thebhumihar)</b>''')
+<b>If you want to buy membership of the bot, feel free to contact the Bot</b> [BHUMIHAR]</b>''')
 # File paths
 SUBSCRIPTION_FILE = "subscription_data.txt"
 
@@ -402,7 +402,7 @@ async def account_login(bot: Client, m: Message):
                 keys_string = " ".join([f"--key {key}" for key in keys])
               
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
+             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={token}"
               
             elif "acecwply" in url:
                 cmd = f'yt-dlp -o "{name}.%(ext)s" -f "bestvideo[height<={raw_text2}]+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv --no-warning "{url}"'

@@ -51,8 +51,8 @@ token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksI
 async def account_login(bot: Client, m: Message):                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     await m.reply_text('''🎉 <b>Welcome to DRM Bot! </b>🎉
     
-<b>You can have access to download all Non-DRM+Decrypted DRM Bot 🔐 including:</b>
-<blockquote><i>
+<b>You can have access to download all Non-DRM+Decrypted DRM Bot 🔐 including:<
+f"<blockquote><i>
    • 📚 Appx Zip
    • 🎓 Classplus DRM+ NDRM
    • 🧑‍🏫 PhysicsWallah DRM
@@ -66,7 +66,7 @@ async def account_login(bot: Client, m: Message):
    • 🎓 Zoom Video
    • 🎓 All Non DRM+DEC DRM
    • 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)
-</blockquote></i>
+f"</blockquote></i>
 <b>🚀 You are not subscribed to any plan yet!</b>
 
 <blockquote><i>💵 Monthly Plan: ₹ 400</blockquote></i>
